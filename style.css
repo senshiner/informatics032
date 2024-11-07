@@ -1,0 +1,102 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: green;
+    width: 100%;
+    max-width: 900px;
+    height: 150px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+    color: aqua;
+    padding: 20px;
+}
+.menu {
+    gap: 25px;
+    display: flex;
+    list-style: none;
+    padding: 20px;
+}
+main {
+    background-color: white;
+    width: auto;
+    max-width: 900px;
+    min-height: 90dvh;
+}
+.tautan {
+    justify-content: space-between;
+    display: flex;
+}
+.tautan a {
+    text-decoration: none;
+}
+.left {
+    background-color: grey;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 250px;
+}
+.right {
+    background-color: grey;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 250px;
+}
+.pesan {
+    padding-bottom: 100px;
+}
+/* -------------- */
+.foto {
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+}
+.foto h2 {
+    color: palevioletred;
+    border: 1px solid aqua;
+    width: 240px;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.gambar {
+    text-align: center;
+}
+.pap {
+    width: 600px;
+    height: auto;
+}
+/* ---------- */
+.jadwal h2 {
+    text-align: center;
+    color: greenyellow;
+    padding: 10px 0px 10px;
+}
+#jadwal {
+    margin-left: 100px;
+    padding: 10px;
+    max-width: 700px;
+}
+#jadwal th {
+    border-bottom: 1px solid aqua;
+    padding: 10px;
+}
+#jadwal td {
+    border-bottom: 1px solid aqua;
+    padding: 10px;
+    border-left: 1px solid aqua;
+}
+
+footer {
+    background-color: blue;
+    width: auto;
+    max-width: 900px;
+    height: 150px;
+}
