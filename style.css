@@ -1,3 +1,8 @@
+:root {
+    --one-color: rgb(0, 255, 179);
+    --two-color: rgb(106, 118, 230);
+}
+
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -11,10 +16,13 @@ header {
     display: flex;
     align-items: center;
 }
-h1 {
+header h1 {
     text-align: center;
-    color: aqua;
+    color: var(--one-color);
     padding: 20px;
+}
+h1 span{
+    color: white;
 }
 .menu {
     gap: 25px;
@@ -36,15 +44,15 @@ main {
     text-decoration: none;
 }
 .left {
-    background-color: grey;
-    border: 1px solid red;
+    background-color: var(--one-color);
+    border: 1px solid var(--two-color);
     border-radius: 10px;
     padding: 10px;
     margin-left: 250px;
 }
 .right {
-    background-color: grey;
-    border: 1px solid;
+    background-color: var(--one-color);
+    border: 1px solid var(--two-color);
     border-radius: 10px;
     padding: 10px;
     margin-right: 250px;
@@ -59,8 +67,8 @@ main {
     flex-direction: column;
 }
 .foto h2 {
-    color: palevioletred;
-    border: 1px solid aqua;
+    color: var(--two-color);
+    border: 1px solid var(--two-color);
     width: 240px;
     border-radius: 10px;
     padding: 10px;
@@ -76,7 +84,7 @@ main {
 /* ---------- */
 .jadwal h2 {
     text-align: center;
-    color: greenyellow;
+    color: var(--two-color);
     padding: 10px 0px 10px;
 }
 #jadwal {
@@ -85,17 +93,19 @@ main {
     max-width: 700px;
 }
 #jadwal th {
-    border-bottom: 1px solid aqua;
+    border-bottom: 1px solid var(--two-color);
     padding: 10px;
 }
 #jadwal td {
-    border-bottom: 1px solid aqua;
+    border-bottom: 1px solid var(--two-color);
     padding: 10px;
-    border-left: 1px solid aqua;
+    border-left: 1px solid var(--two-color);
 }
 
 footer {
-    background-color: blue;
+    background-color: var(--one-color);
+    color: var(--two-color);
+    text-align: center;
     width: auto;
     max-width: 900px;
     height: 150px;

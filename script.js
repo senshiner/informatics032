@@ -50,4 +50,3 @@ if (isNaN(twoDigit) || twoDigit < 0 || twoDigit > 99){
         console.log('Anda tidak mendapatkan diskon')
     }
 }
-
