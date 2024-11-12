@@ -67,9 +67,10 @@
 
 const judul = document.querySelector('h1')
 const warna = document.getElementsByClassName('jadwal')
+const teks = document.getElementsByClassName('insta')
 console.log(warna)
 let ubah = document.querySelector('div.left')
 console.log(ubah)
 warna[0].style.backgroundColor = 'grey'
-warna[0].style.border = '1px solid'
-ubah.style.backgroundColor = 'white'
+teks[0].style.border = '1px solid'
+judul.innerHTML = 'IG KELAS'
