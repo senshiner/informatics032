@@ -1,87 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>INFORMATICS</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<title>INFORMATICS</title>
 </head>
-<body>
-    <!-- NAVBAR START -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="/">INFORMATIKA 032</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/about">About</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Other
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Discord</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Instagram</a></li>
-                  <li><a class="dropdown-item" href="#">Pesan Anonim</a></li>
-                </ul>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-light" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-    </nav>
-    <!-- NAVBAR END -->
-    <!-- First Layout Start -->
-    <div class="container-fluid bg-dark text-light" style="height: 100vh;">
-      <!-- Carousel image -->
+<body class="bg-dark">
+		<!-- NAVBAR START -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light">
+				<div class="container-fluid">
+					<img src="assets/logo.png" alt="asda" width="70px" class="me-2">
+					<a class="navbar-brand" href="/"> INFORMATIKA 032</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="/">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="/about">About</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									Other
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<li><a class="dropdown-item " href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16">
+											<path d="M13.545 2.907a13.2 13.2 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.2 12.2 0 0 0-3.658 0 8 8 0 0 0-.412-.833.05.05 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.04.04 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032q.003.022.021.037a13.3 13.3 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019q.463-.63.818-1.329a.05.05 0 0 0-.01-.059l-.018-.011a9 9 0 0 1-1.248-.595.05.05 0 0 1-.02-.066l.015-.019q.127-.095.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.05.05 0 0 1 .053.007q.121.1.248.195a.05.05 0 0 1-.004.085 8 8 0 0 1-1.249.594.05.05 0 0 0-.03.03.05.05 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.2 13.2 0 0 0 4.001-2.02.05.05 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.03.03 0 0 0-.02-.019m-8.198 7.307c-.789 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612m5.316 0c-.788 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612"/>
+											</svg>  Discord</a></li>
+										<li><hr class="dropdown-divider"></li>
+									<li><a class="dropdown-item fa fa-instagram" href="#"> Instagram</a></li>
+									<li><a class="dropdown-item fa fa-telegram" href="#"> Pesan Anonim</a></li>
+								</ul>
+							</li>
+						</ul>
+						<form class="d-flex">
+							<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+							<button class="btn btn-outline-light" type="submit">Search</button>
+						</form>
+					</div>
+				</div>
+		</nav>
+		<!-- NAVBAR END -->
+		<!-- First Layout Start -->
+		<div class="container-fluid text-light">
+			
+			<!-- Carousel image -->
 
-      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="assets/logo.png" class="d-block w-100" alt="pict1"
-            style="height: 500px;">
-          </div>
-          <div class="carousel-item">
-            <img src="https://assets-global.website-files.com/5e9aa66fd3886aa2b4ec01ca/6507a9857dd32ba394160042_19.%20What%20is%20Software%20Engineering.png" class="d-block w-100" alt="pict2"
-            style="height: 500px;">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/q57s7aci.png" class="d-block w-100" alt="pict3"
-            style="height: 500px;">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+			<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="https://assets-global.website-files.com/5e9aa66fd3886aa2b4ec01ca/6507a9857dd32ba394160042_19.%20What%20is%20Software%20Engineering.png" class="d-block w-100" alt="pict2"
+						style="height: 400px;">
+					</div>
+					<div class="carousel-item">
+						<img src="assets/q57s7aci.png" class="d-block w-100" alt="pict3"
+						style="height: 400px;">
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+			<!-- Carousel image END -->
+			 
+			<div>
+				<div class="col-12">
+					<h1 class="text-center">&#127775 WELCOME TO WEBSITE <span style="color: aquamarine">INFORMATICS</span> &#127775</h1>
+					
+					<!-- Coutdown Start -->
+					
+					<div class="text-center mt-4 bg-dark shadow mx-3">
+						<h2 class="text-danger">&#128187; Terjebak Dalam Kelas &#128187;<h4/>
+						<div class="d-flex p-3 align-items-center rounded justify-content-center">
+							<div class="text-center mx-3">
+								<h2 id="days" class="text-primary">0</h2>
+								<p class="mb-0">Days</p>
+							</div>
+							<div class="text-center mx-3">
+								<h2 id="hours" class="text-primary">0</h2>
+								<p class="mb-0">Hours</p>
+							</div>
+							<div class="text-center mx-3">
+								<h2 id="minutes" class="text-primary">0</h2>
+								<p class="mb-0">Minutes</p>
+							</div>
+						</div>
+					</div>
 
-      <!-- Carousel image END -->
-        <div class="row text-center align-items-center">
-            <div class="col-7">
-                WELCOME TO WEBSITE INFORMATICS 032
-            </div>
-            <div class="col-5">
-                <img src="assets/soal2.PNG" alt="kelas" style="width: 100%;">
-            </div>
-        </div>
-    </div>
-    <!-- First Layout End -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+					<!-- Coutdown END -->
+					<h2 class="mt-4 text-center">all about class <span style="color:aquamarine">01TLPL032</span><h4/>
+					<!-- JADWAL START -->
+					<div class="row">
+						<table class="table table-dark table-sm">
+							<h2 class="mt-4 col-3 mb-2">&#128197; class <span style="color: aquamarine">schedule</span></h2>
+								<thead class="text-center mt-2">
+									<tr>
+										<th scope="col">&#129487; Dosen</th>
+										<th scope="col">&#128218; Nama MATKUL</th>
+										<th scope="col">&#128198; Hari</th>
+										<th scope="col">&#128344; Jam</th>
+									</tr>
+								</thead>
+								<tbody class="text-center mt-2">
+									<tr>
+										<th class="table-primary" scope="row">?</th>
+										<td class="table-info">Logika Informatika</td>
+										<td class="table-success">Senin</td>
+										<td class="table-success">10.30 - 12.10</td>
+									</tr>
+									<tr>
+										<th class="table-primary" scope="row">?</th>
+										<td class="table-info">Basic Academic English</td>
+										<td class="table-success">Senin</td>
+										<td class="table-success">13.00 - 14.40</td>
+									</tr>
+									<tr>
+										<th class="table-primary" scope="row">?</th>
+										<td class="table-info">Pengantar Teknologi Informasi</td>
+										<td class="table-success">Selasa</td>
+										<td class="table-success">08.50 - 10.30</td>
+									</tr>
+									<tr>
+										<th class="table-primary" scope="row">?</th>
+										<td class="table-info">Kalkulus I</td>
+										<td class="table-success">Selasa</td>
+										<td class="table-success">10.30 - 12.10</td>
+									</tr>
+									<tr>
+										<th class="table-primary" scope="row">?</th>
+										<td class="table-info">Algoritma dan Pemrograman I</td>
+										<td class="table-success">Rabu</td>
+										<td class="table-success">07.10 - 08.50</td>
+									</tr>
+									<tr>
+										<th class="table-primary" scope="row">?</th>
+										<td class="table-info">Pendidikan Pancasila</td>
+										<td class="table-success">Rabu</td>
+										<td class="table-success">08.50 - 10.30</td>
+									</tr>
+									<tr>
+										<th class="table-primary" scope="row">?</th>
+										<td class="table-info">Fisika Dasar</td>
+										<td class="table-success">Rabu</td>
+										<td class="table-success">10.30 - 12.10</td>
+									</tr>
+									<tr>
+										<th class="table-primary" scope="row">?</th>
+										<td class="table-info">Pendidikan Agama</td>
+										<td class="table-success">Rabu</td>
+										<td class="table-success">13.00 - 14.40</td>
+									</tr>
+								</tbody>
+							</table>
+					</div>
+				</div>
+					<!-- JADWAL END -->
+					<!-- GALLERY START -->
+				<div>
+					<h2 class="mt-4 col-3 mb-4">&#128248; class <span style="color: aquamarine">gallery</span></h2>
+				<div/>
+				<div class="row text-center">
+					<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+						<div class="carousel-indicators">
+							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+						</div>
+						<div class="carousel-inner mt-4">
+							<div class="carousel-item active">
+								<img src="https://th.bing.com/th/id/OIP.BfhJIHk7hlB1OiLcOJjBZQHaEK?w=288&h=180&c=7&r=0&o=5&pid=1.7" class="w-50" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="https://th.bing.com/th/id/OIP.1nsSjMU7C62vFsuETxRWUwAAAA?w=296&h=167&c=7&r=0&o=5&pid=1.7" class="w-50" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="https://th.bing.com/th/id/OIP.ypGZzJCaP2YYBsbAhBQQNwHaDt?w=313&h=175&c=7&r=0&o=5&pid=1.7" class="w-50" alt="...">
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+				</div>
+				<!-- GALLERY END -->
+			</div>
+		</div>
+		
+		<!-- First Layout End -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+		<script src="script.js"></script>
 </body>
 </html>
