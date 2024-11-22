@@ -1,4 +1,4 @@
-const startTime = new Date(2024, 7, 28, 8, 0, 0);
+const startTime = new Date(2024, 8, 9, 8, 0, 0);
 
 function updateCountdown() {
     const now = new Date();
@@ -15,3 +15,4 @@ function updateCountdown() {
 
 setInterval(updateCountdown, 60000);
 updateCountdown();
+

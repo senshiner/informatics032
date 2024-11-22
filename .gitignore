@@ -1,1 +1,5 @@
 .vscode
+*.py
+/static/
+/learning/
+/assets/
