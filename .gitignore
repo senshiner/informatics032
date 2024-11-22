@@ -2,4 +2,4 @@
 *.py
 /static/
 /learning/
-/assets/
+/assets/*img
