@@ -1,0 +1,39 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+.neo {
+  border: 2px solid black;
+  background-color: #0dcaf0;
+  border-radius: 10px;
+  box-shadow: 4px 4px 0px black; /* Shadow muncul saat tidak dihover */
+  transition: all 0.2s ease;
+  cursor: pointer; /* Pointer cursor saat hover */
+  position: relative; /* Untuk memastikan transform bekerja dengan baik */
+}
+
+.neo:hover,
+.neo:focus {
+  transform: translate(4px, 4px); /* Geser tombol ke kanan bawah */
+  box-shadow: none;
+}
+
+.neos {
+  border: 2px solid black;
+  box-shadow: 5px 5px 0px black;
+  border-radius: 7px;
+}
+
+.nes {
+  border: 2px solid black;
+  border-radius: 7px;
+  padding: 5px 5px;
+}
+
+section {
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+}
+
+body {
+  background-color: #d6d6d6;
+}
